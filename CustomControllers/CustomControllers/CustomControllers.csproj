@@ -99,6 +99,18 @@
   <ItemGroup>
     <None Include="Resources\1468252351_device-volume-loudspeaker-speaker-up-glyph.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1468253054_device-volume-loudspeaker-speaker-mute-glyph.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open mail.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -28,9 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.toggleButton1 = new CustomControllers.ToggleButton();
             this.toggleButton2 = new CustomControllers.ToggleButton();
+            this.toggleButton1 = new CustomControllers.ToggleButton();
             this.SuspendLayout();
+            // 
+            // toggleButton2
+            // 
+            this.toggleButton2.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.toggleButton2.DisplayText = "";
+            this.toggleButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.toggleButton2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.toggleButton2.Image = global::CustomControllers.Properties.Resources.mail;
+            this.toggleButton2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.toggleButton2.ImgOffImage = global::CustomControllers.Properties.Resources.mail;
+            this.toggleButton2.ImgOnImage = global::CustomControllers.Properties.Resources.open_mail;
+            this.toggleButton2.Location = new System.Drawing.Point(54, 165);
+            this.toggleButton2.Name = "toggleButton2";
+            this.toggleButton2.Size = new System.Drawing.Size(58, 54);
+            this.toggleButton2.TabIndex = 1;
+            this.toggleButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.toggleButton2.ToggleOffColor = System.Drawing.SystemColors.ControlLight;
+            this.toggleButton2.ToggleOnColor = System.Drawing.SystemColors.MenuHighlight;
+            this.toggleButton2.UseVisualStyleBackColor = false;
             // 
             // toggleButton1
             // 
@@ -38,8 +57,10 @@
             this.toggleButton1.DisplayText = "";
             this.toggleButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.toggleButton1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.toggleButton1.Image = global::CustomControllers.Properties.Resources._1468252351_device_volume_loudspeaker_speaker_up_glyph;
+            this.toggleButton1.Image = global::CustomControllers.Properties.Resources.dd;
             this.toggleButton1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.toggleButton1.ImgOffImage = global::CustomControllers.Properties.Resources.dd;
+            this.toggleButton1.ImgOnImage = global::CustomControllers.Properties.Resources._1468253054_device_volume_loudspeaker_speaker_mute_glyph;
             this.toggleButton1.Location = new System.Drawing.Point(54, 105);
             this.toggleButton1.Name = "toggleButton1";
             this.toggleButton1.Size = new System.Drawing.Size(58, 54);
@@ -48,23 +69,6 @@
             this.toggleButton1.ToggleOffColor = System.Drawing.SystemColors.Control;
             this.toggleButton1.ToggleOnColor = System.Drawing.SystemColors.Highlight;
             this.toggleButton1.UseVisualStyleBackColor = false;
-            // 
-            // toggleButton2
-            // 
-            this.toggleButton2.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.toggleButton2.DisplayText = "";
-            this.toggleButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.toggleButton2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.toggleButton2.Image = global::CustomControllers.Properties.Resources._1468252351_device_volume_loudspeaker_speaker_up_glyph;
-            this.toggleButton2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.toggleButton2.Location = new System.Drawing.Point(118, 105);
-            this.toggleButton2.Name = "toggleButton2";
-            this.toggleButton2.Size = new System.Drawing.Size(58, 54);
-            this.toggleButton2.TabIndex = 1;
-            this.toggleButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.toggleButton2.ToggleOffColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.toggleButton2.ToggleOnColor = System.Drawing.Color.Red;
-            this.toggleButton2.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 

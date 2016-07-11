@@ -42,6 +42,21 @@ namespace CustomControllers
             {StrDisplayText = value; Invalidate();}
         }
 
+        private Image imgOnImage;
+
+        public Image ImgOnImage
+        {
+            get { return imgOnImage; }
+            set { imgOnImage = value; }
+        }
+        private Image imgOffImage;
+
+        public Image ImgOffImage
+        {
+            get { return imgOffImage; }
+            set { imgOffImage = value; }
+        }
+
 
         //[Browsable(false), EditorBrowsable(EditorBrowsableState.Never)]
         //[Obsolete("just cast me to avoid all this hiding...", true)]
@@ -62,10 +77,16 @@ namespace CustomControllers
         protected override void OnPaint(PaintEventArgs pe)
         {
             base.OnPaint(pe);
-            if(!isOneMode)
-                pnl_togle.BackColor = ToggleOffColor; 
-            else 
+            if (!isOneMode)
+            {
+                pnl_togle.BackColor = ToggleOffColor;
+                this.Image = ImgOffImage;
+            }
+            else
+            {
                 pnl_togle.BackColor = toggleOnColor; ;
+                this.Image = imgOnImage;
+            }
             lbText.Text = DisplayText;
         }
 
